@@ -17,8 +17,15 @@ To test the translator or chatbot:
    
 2. Update the OpenAI API Key:
 
-Open the appsettings.json file.
-Replace Your_OpenAI_API_Key with your actual OpenAI GPT-3 API key.
+   Open the appsettings.json file.
+   Add the following lines:
+      ```bash
+      "OpenAI": {
+        "ApiKey": "Your_OpenAI_API_Key"
+      }
+      ```
+   Replace "Your_OpenAI_API_Key" with your actual OpenAI GPT-3 API key.
+
 Run the application:
 
 3. Build and run the application using your preferred development environment.
